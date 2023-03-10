@@ -1,11 +1,14 @@
 import styled, { keyframes } from "styled-components";
 
 const animateBorder = keyframes`
-   from {
+   0% {
     border-color: transparent;
   }
-  to {
+  50% {
     border-color: #FF0059;
+  }
+  100%{
+    border-color: transparent;
   }
 `;
 
@@ -17,44 +20,41 @@ export const Main = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   .img-banner-top {
-    height: 40vh;
+    height: 28vh;
     width: 100vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
-      height: 35vh;
-      width: 40vw;
+      height: 30vh;
+      width: 30vw;
       border-radius: 0 0 45px 45px;
       @media screen and (max-width: 768px) {
-        height: 35vh;
+        height: 30vh;
         width: 75vw;
       }
       @media screen and (max-width: 480px) {
-        height: 35vh;
-        width: 100vw;
+        height: 30vh;
+        width: 90vw;
       }
     }
   }
   .img-icon {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0vh;
+
     img {
       height: 20vh;
       border-radius: 100%;
       border: 2px solid transparent;
       border-radius: 50%;
-      animation: ${animateBorder} 1.4s forwards;
+      animation: ${animateBorder} 3s infinite;
     }
     @media screen and (max-width: 768px) {
     }
     @media screen and (max-width: 480px) {
-      top: 31%;
-      left: 50%;
-
-      transform: translate(-50%, -50%);
     }
   }
 
@@ -63,18 +63,25 @@ export const Main = styled.div`
 
   @media screen and (max-width: 480px) {
   }
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      opacity: 1;
+  .title-text {
+    height: auto;
+    width: 100vw;
+    margin-top: 75px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    h2 {
+      font-size: 1.4em;
+      text-align: center;
     }
-    50% {
-      transform: scale(1.2);
-      opacity: 0.7;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
+  }
+  .buttons {
+    height: 37vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
   }
 `;
