@@ -6,12 +6,12 @@ const StyledButton = styled.button`
   color: white;
   width: 100% ;
   text-align: center ;
-  padding: 10px;
+  padding: 20px;
   border: none;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: center ;
+  justify-content: left;
 `;
 
 const ButtonIcon = styled.span`

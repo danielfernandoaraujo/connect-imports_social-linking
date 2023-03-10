@@ -46,7 +46,7 @@ export const Main = styled.div`
     img {
       height: 20vh;
       border-radius: 100%;
-      border: 2px solid transparent;
+      border: 3px solid transparent;
       border-radius: 50%;
       animation: ${animateBorder} 3s infinite;
     }
@@ -62,24 +62,31 @@ export const Main = styled.div`
   @media screen and (max-width: 480px) {
   }
   .title-text {
-    height: auto;
-    width: 100vw;
-    margin-top: 75px;
-    margin-bottom: 0;
+    height: 5vh;
+    width: auto;
+    margin-top: 12.5vh;
+    margin-bottom: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
     h2 {
-      font-size: 1.4em;
+      font-size: 1em;
       text-align: center;
     }
   }
   .buttons {
-    height: 37vh;
+    height: 42vh;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+      width: 90vw;
+    }
+    @media screen and (max-width: 480px) {
+      width: 75%;
+    }
   }
 `;
