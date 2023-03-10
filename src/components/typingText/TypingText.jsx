@@ -23,8 +23,8 @@ const TextWrapper = styled.span`
   
 const phrases = [
     "Assistência técnica de smartphones 📱",
-    "Produtos de qualidade ✅",
-    "Siga a gente no Instagram 😍",
+    "Produtos de qualidade 🛒",
+    "Siga-nós no Instagram 😍",
 ];
 
 const TypingText = () => {

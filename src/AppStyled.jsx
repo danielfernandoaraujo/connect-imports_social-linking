@@ -86,7 +86,7 @@ export const Main = styled.div`
       width: 60%;
     }
     @media screen and (max-width: 480px) {
-      width: 80%;
+      width: 70%;
     }
   }
 `;
