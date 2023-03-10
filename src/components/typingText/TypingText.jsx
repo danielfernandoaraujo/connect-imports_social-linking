@@ -14,7 +14,7 @@ const blinkCursor = keyframes`
 const TextWrapper = styled.span`
   border-right: 0.15em solid #000;
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;

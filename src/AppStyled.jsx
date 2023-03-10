@@ -76,17 +76,17 @@ export const Main = styled.div`
     }
   }
   .buttons {
-    height: 42vh;
+    height: 50vh;
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     @media screen and (max-width: 768px) {
-      width: 90vw;
+      width: 60%;
     }
     @media screen and (max-width: 480px) {
-      width: 75%;
+      width: 80%;
     }
   }
 `;
