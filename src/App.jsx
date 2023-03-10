@@ -20,10 +20,10 @@ function App() {
         <h2>Assistência técnica de celulares e acessórios</h2>
       </dir>
       <div className="buttons">
-        <Button text="Nosso whatsapp" color="blue" icon="💾"></Button>
-        <Button text="Nossa localização" color="blue" icon="💾"></Button>
-        <Button text="Salvar" color="blue" icon="💾"></Button>
-        <Button text="Salvar" color="blue" icon="💾"></Button>
+        <Button text="Whatsapp" color="blue" icon="💾"></Button>
+        <Button text=" Localização" color="blue" icon="💾"></Button>
+        <Button text="Instagram" color="blue" icon="💾"></Button>
+        <Button text="Telefone" color="blue" icon="💾"></Button>
       </div>
     </Main>
   );

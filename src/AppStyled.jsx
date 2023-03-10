@@ -17,13 +17,11 @@ export const Main = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
   .img-banner-top {
     height: 28vh;
     width: 100vw;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     img {
       height: 30vh;
@@ -31,11 +29,11 @@ export const Main = styled.div`
       border-radius: 0 0 45px 45px;
       @media screen and (max-width: 768px) {
         height: 30vh;
-        width: 75vw;
+        width: 90vw;
       }
       @media screen and (max-width: 480px) {
         height: 30vh;
-        width: 90vw;
+        width: 100vw;
       }
     }
   }
