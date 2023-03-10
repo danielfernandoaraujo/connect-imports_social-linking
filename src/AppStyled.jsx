@@ -76,7 +76,7 @@ export const Main = styled.div`
     }
   }
   .buttons {
-    height: 50vh;
+    height: 60vh;
     width: 20%;
     display: flex;
     align-items: center;
