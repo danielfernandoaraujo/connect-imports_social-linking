@@ -57,7 +57,7 @@ function App() {
       </div>
       <div className="footer">
         <p>
-          Desenvolvido por&ensp;
+          Desenvolvido por&nbsp;
           <a href="https://www.instagram.com/danielfernando.dev/">
             Daniel Fernando
           </a>
