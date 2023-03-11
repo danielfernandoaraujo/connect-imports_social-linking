@@ -65,7 +65,7 @@ export const Main = styled.div`
     height: 5vh;
     width: auto;
     margin-top: 12.5vh;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@ export const Main = styled.div`
   }
   .footer {
     p {
-      color: #f1f1f155;
+      color: #f1f1f116;
     }
   }
 `;

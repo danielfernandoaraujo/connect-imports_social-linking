@@ -40,7 +40,7 @@ const TypingText = () => {
       setTimeout(() => {
         setPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
         setShowText(true);
-      }, 100);
+      }, 0);
     }, 3500);
     return () => clearInterval(intervalId);
   }, []);
