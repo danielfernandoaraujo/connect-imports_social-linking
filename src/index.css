@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: radial-gradient(circle at 50% 120.71%, #2b3130 0, #242424 50%, #1c1719 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,11 +16,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ff00596c;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #ff005985;
 }
 
 body {

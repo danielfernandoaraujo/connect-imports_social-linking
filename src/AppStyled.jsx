@@ -76,7 +76,7 @@ export const Main = styled.div`
     }
   }
   .buttons {
-    height: 60vh;
+    height: 40vh;
     width: 20%;
     display: flex;
     align-items: center;
@@ -84,9 +84,16 @@ export const Main = styled.div`
     flex-direction: column;
     @media screen and (max-width: 768px) {
       width: 60%;
+      height: 60vh;
     }
     @media screen and (max-width: 480px) {
-      width: 70%;
+      width: 80%;
+      height: 60vh;
+    }
+  }
+  .footer {
+    p {
+      color: #f1f1f155;
     }
   }
 `;

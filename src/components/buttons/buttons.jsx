@@ -3,7 +3,14 @@ import styled from "styled-components";
 import {MdArrowForwardIos} from "react-icons/md";
 
 const StyledButton = styled.a`
-  background-color: ${(props) => props.color};
+  background-image: radial-gradient(
+    circle at 120.71% 50%,
+    #ff5d60 0,
+    #ff415d 25%,
+    #ff0058 50%,
+    #ee0054 75%,
+    #df0054 100%
+  );
   color: white;
   width: 100%;
   padding: 15px;
@@ -11,13 +18,14 @@ const StyledButton = styled.a`
   border: none;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
+  margin-bottom: 20px ;
   div {
-    display: flex ;
+    display: flex;
     align-items: center;
     justify-content: left;
   }
-
+  box-shadow: 0px 26px 21px -23px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   :hover {
     color: white;

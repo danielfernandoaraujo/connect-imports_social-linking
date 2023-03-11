@@ -32,7 +32,6 @@ function App() {
       <div className="buttons">
         <Button
           text="Nosso Whatsapp"
-          color="#FF0059"
           link={
             "https://api.whatsapp.com/send/?phone=5579991228309&text=Olá,+CONECT+IMPORTS+gostaria+de&type=phone_number&app_absent=0"
           }
@@ -40,24 +39,29 @@ function App() {
         ></Button>
         <Button
           text="Localização"
-          color="#FF0059"
           link={
             "https://www.google.com/maps/place/Conect+Imports+cell+Assistência+Técnica+-+Av.+Augusto+Franco,+3321+-+Ponto+Novo,+Aracaju+-+SE,+49047-040/data=!4m2!3m1!1s0x71ab3b93d3d73f9:0x24f070cb07093130?utm_source=mstt_1&entry=gps&lucs=47062708&g_ep=CAESCTExLjY2LjYwMhgAIIgnKgg0NzA2MjcwOEICQlI%3D"
           }
           icon={<FaMapMarkerAlt size={"1.2em"} />}
         ></Button>
         <Button
-          text="Siga-nós no Instagram"
-          color="#FF0059"
-          link={"https://www.instagram.com/conectt_imports/"}
-          icon={<AiFillInstagram size={"1.2em"} />}
-        ></Button>
-        <Button
           text="Compre online"
-          color="#FF0059"
           link={"https://www.olx.com.br/perfil/conect-imports-08ff7a57"}
           icon={<AiOutlineShopping size={"1.2em"} />}
         ></Button>
+        <Button
+          text=" Instagram"
+          link={"https://www.instagram.com/conectt_imports/"}
+          icon={<AiFillInstagram size={"1.2em"} />}
+        ></Button>
+      </div>
+      <div className="footer">
+        <p>
+          Desenvolvido por&ensp;
+          <a href="https://www.instagram.com/danielfernando.dev/">
+            Daniel Fernando
+          </a>
+        </p>
       </div>
     </Main>
   );
